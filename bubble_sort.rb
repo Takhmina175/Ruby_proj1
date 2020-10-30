@@ -18,7 +18,7 @@ def bubble_sort(arr)
   arr
 end
 
-p bubble_sort([4,3,78,2,0,2,0])
+p bubble_sort([4, 3, 78, 2, 0, 2, 0])
 
 def bubble_sort_by(arr)
   array_length = arr.length - 1
