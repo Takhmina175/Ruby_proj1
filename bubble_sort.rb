@@ -1,5 +1,5 @@
 def bubble_sort(arr)
-  array_length = arr.length - 1
+  array_length = arr.size
   arr if array_length <= 1
   k = 1
   while k < array_length - 1
@@ -18,7 +18,7 @@ def bubble_sort(arr)
   arr
 end
 
-p bubble_sort([2, 56, 89, 0, 78, 1, 5])
+p bubble_sort([4,3,78,2,0,2,0])
 
 def bubble_sort_by(arr)
   array_length = arr.length - 1
