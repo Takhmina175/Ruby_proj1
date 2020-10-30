@@ -1,5 +1,3 @@
-# frozen_string_literal: true
-
 def bubble_sort(arr)
   array_length = arr.length - 1
   arr if array_length <= 1
